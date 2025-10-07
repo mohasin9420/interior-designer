@@ -1,0 +1,157 @@
+/* Homepage Modular Sections Styles */
+
+/* Hero Section */
+.hero {
+  padding: 80px 0;
+  background-color: #f8f9fa;
+  position: relative;
+}
+
+.hero h1 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.hero h2 {
+  margin-bottom: 15px;
+  color: #555;
+}
+
+.hero .lead {
+  margin-bottom: 30px;
+  font-size: 1.1rem;
+}
+
+.hero .card {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Testimonials Section */
+.testimonials {
+  padding: 70px 0;
+}
+
+.testimonials .section-title {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.testimonials .section-subtitle {
+  margin-bottom: 20px;
+  color: #666;
+  font-size: 1.1rem;
+}
+
+.testimonials .card {
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.testimonials .card:hover {
+  transform: translateY(-5px);
+}
+
+.testimonials .quote-title {
+  font-style: italic;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+/* Process Section */
+.process {
+  padding: 70px 0;
+}
+
+.process .section-title {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.process .section-subtitle {
+  margin-bottom: 30px;
+  color: #666;
+  font-size: 1.1rem;
+}
+
+.process-step {
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
+  height: 100%;
+  transition: transform 0.3s ease;
+}
+
+.process-step:hover {
+  transform: translateY(-5px);
+}
+
+.step-number .badge {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  margin: 0 auto;
+}
+
+/* Company Info Section */
+.company-info {
+  padding: 70px 0;
+}
+
+.company-story {
+  color: #333;
+  line-height: 1.7;
+}
+
+.key-metrics .metric {
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  height: 100%;
+}
+
+.key-metrics h3 {
+  font-size: 2rem;
+  color: #007bff;
+  margin-bottom: 5px;
+}
+
+.value-propositions {
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
+}
+
+.value-propositions .list-group-item {
+  background-color: transparent;
+  padding: 8px 0;
+}
+
+.tagline {
+  font-size: 1.1rem;
+  color: #333;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .hero {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .hero .card {
+    margin-top: 30px;
+  }
+  
+  .process-step, 
+  .testimonials .card,
+  .key-metrics .metric {
+    margin-bottom: 20px;
+  }
+}
