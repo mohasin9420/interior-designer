@@ -102,6 +102,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && ($_POST['form_type'] ?? '') === 'es
         <h1 class="display-5 fw-bold"><?= e($hero['main_headline']) ?></h1>
         <h2 class="h3"><?= e($hero['sub_headline']) ?></h2>
         <p class="lead"><?= e($hero['tagline']) ?></p>
+        <div class="mt-3">
+          <a href="<?= e(base_url('home.php')) ?>" class="btn btn-outline-primary">Go to Home Page</a>
+        </div>
       </div>
       <div class="col-lg-5 ms-auto">
         <div class="card shadow-sm">
